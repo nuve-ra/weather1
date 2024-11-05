@@ -31,7 +31,8 @@ function App() {
   
   const renderDate = () => {
     let now = new Date();
-    return dateFormat(now, "dddd, mmmm dS, h:MM TT");
+    return dateFormat(now, "dddd, mmmm dS, yyyy, h:MM:ss TT");
+
   };
 
   return (
